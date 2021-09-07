@@ -1,3 +1,8 @@
+body{
+	font-family: georgia;
+}
+
+
 h1{
 	text-align: center;
 	color: #00758d;
@@ -29,6 +34,20 @@ p{
 	
 }
 
+a {
+  color: #00758d;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+a:hover {
+  color: white;
+  background-color: #00758d;
+  text-decoration: underline;
+  padding: 10px;
+  border-radius: 10px;
+
+}
 
 
 .passions{
@@ -53,10 +72,9 @@ a:hover {
 }
 
 .reseaux{
-	margin-top: 100px;
 	font-size: x-large;
-	text-align: center;
-	display: inline-flex;
+	display: flex;
+	height: 100px;
 }
 
 .container{
@@ -87,19 +105,38 @@ button{
 	height: 30px;
 }
 
+ul{
+	text-align: right;
+	display: inline-flex;
+}
+
 .reseaux p{
 	text-align: left;
 }
 
 .facebook {
-	background-color: #0095f6
+	color: #0095f6
 }
 
 .instagram {
-	background:#C32AA3;
-	background:linear-gradient(#C32AA3;#4C5FD7; #7232BD ; #F46F30)
-} 
+	color:  deeppink;
+}
 
+.instagram:hover {
+	background-color: deeppink;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+
+}
+
+.facebook:hover {
+	background-color: #0095f6;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+
+}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
