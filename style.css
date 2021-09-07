@@ -73,7 +73,7 @@ a:hover {
 
 .reseaux{
 	font-size: x-large;
-	display: flex;
+	display: inline-flex;
 	height: 100px;
 }
 
