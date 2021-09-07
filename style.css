@@ -1,0 +1,123 @@
+h1{
+	text-align: center;
+	color: #00758d;
+	text-decoration: underline;
+}
+
+h2{
+	text-align: center;
+	color: rgb(80 80 80);
+}
+
+h4{
+	text-align: center;
+	color: rgb(80 80 80);
+}
+
+
+#imageprofile {
+	height: 400px;
+	width: 300px;
+	display: flex;
+	margin: 30px auto;
+	border-radius: 50%;
+}
+
+p{
+	text-align: justify-all;
+	color: rgb(80 80 80);
+	
+}
+
+
+
+.passions{
+	margin-top: 100px;
+	font-size: x;
+	text-align: center;
+
+}
+
+.passion h2{
+	text-decoration: underline;
+}
+
+body{
+	text-align: center;
+	font-size: large;
+	background: whitesmoke;
+}
+
+a:hover {
+	opacity: 80%;
+}
+
+.reseaux{
+	margin-top: 100px;
+	font-size: x-large;
+	text-align: center;
+	display: inline-flex;
+}
+
+.container{
+	background: whitesmoke;
+	margin: auto;
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 4px 4px 10px 0.2;
+}
+
+.inside{
+	background: white;
+	width: 100%;
+	margin:  30px auto;
+	padding: 15px ;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px 1px;
+}
+
+button{
+	background-color: #00758d;
+	color: white;
+	margin-top: 15px;
+	cursor: pointer;
+	border-radius: 3px;
+	width: 100px;
+	height: 30px;
+}
+
+.reseaux p{
+	text-align: left;
+}
+
+.facebook {
+	background-color: #0095f6
+}
+
+.instagram {
+	background:#C32AA3;
+	background:linear-gradient(#C32AA3;#4C5FD7; #7232BD ; #F46F30)
+} 
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
